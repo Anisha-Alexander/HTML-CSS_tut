@@ -1,0 +1,12 @@
+1.Positioning introduction
+Box model review
+Normal document flow
+Floating elements
+clearing floats
+Floating columns
+Using text columns
+Relative Position
+Absolute Position
+Fixed Position
+Z-index & Stacking
+Clipping content 
