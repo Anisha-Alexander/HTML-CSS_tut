@@ -1,2 +1,3 @@
 # html-css-tutorials
-# completed till tutorial 11
+# completed till tutorial 12.2
+
