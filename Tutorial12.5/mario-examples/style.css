@@ -6,21 +6,17 @@ html, body{
   overflow: hidden;
   margin: 0;
 }
-
 .grass, .sky, .road{
   position: relative;
 }
-
 .sky{
   height: 40%;
   background: skyblue;
 }
-
 .grass{
   height: 30%;
   background: seagreen;
 }
-
 .road{
   height: 30%;
   background: dimgrey;
@@ -29,7 +25,6 @@ html, body{
   border-bottom: 10px solid grey;
   width: 100%;
 }
-
 .lines{
   box-sizing: border-box;
   border: 5px dashed #fff;
@@ -38,7 +33,6 @@ html, body{
   position: absolute;
   top: 45%;
 }
-
 /*// ELEMENTS TO ANIMATE //*/
 .mario{
   position:absolute;
@@ -51,7 +45,6 @@ html, body{
   animation-delay: 2s;  */
   animation: drive 3s both infinite linear, jump 0.3s 1.2 ease ;
 }
-
 .luigi{
   position: absolute;
   top:  50px;
@@ -63,43 +56,33 @@ html, body{
   animation-timing-function: linear;
   
 }
-
 .cloud{
   position: absolute;
 }
-
 .cloud:nth-child(1){
   width:200px;
   top:120px;
   opacity: 0.5;
-  animation: wind 40s linear infinite reverse;
-  
+  animation: wind 40s linear infinite reverse;  
 }
 .cloud:nth-child(2){
   width: 300px;
   top: 0%;
   animation: wind 20s linear infinite reverse;
 }
-
-/*// KEYFRAMES //*/
- 
+/*// KEYFRAMES //*/ 
 @keyframes drive{
   from{ transform: translateX(-100px)}
   to{ transform: translateX(1500px);}
-
 }
-
 @keyframes opposite{
   from{ transform: translateX(100px) rotateY(-180deg);}
   to{ transform: translateX(-1500px) rotateY(-180deg);;}
-
 }
-
 @keyframes wind{
   from{  left:-300px }
   to{ left: 100%}
 }
- 
 @keyframes jump{
   0%{top: -40px}
   50%{top: -100px}
