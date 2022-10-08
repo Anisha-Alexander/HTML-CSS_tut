@@ -1,3 +1,3 @@
 # html-css-tutorials
-# completed till tutorial 12.2
+# completed till all html css tutorials
 
